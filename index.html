@@ -101,9 +101,9 @@
         <li>
           <ol class="type">
             <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".graphic">Prelim Period</a></li>
-            <li><a href="#" data-filter=".illustration">Midterm Period</a></li>
-            <li><a href="#" data-filter=".photography">Final Period</a></li>
+            <li><a href="#" data-filter=".prelim">Prelim Activities</a></li>
+            <li><a href="#" data-filter=".midterm">Midterm Activites</a></li>
+            <li><a href="#" data-filter=".finals">Finals Activities</a></li>
           </ol>
         </li>
       </ul>
@@ -111,125 +111,256 @@
     </div>
     <div class="row">
       <div class="portfolio-items">
-        <div class="col-sm-6 col-md-3 col-lg-3 graphic">
+        <div class="col-sm-6 col-md-3 col-lg-3 prelim">
           <div class="portfolio-item">
             <div class="hover-bg">
-             <a href="https://github.com/qsmvelmonte?tab=repositories" onclick="toggleDescription(event, 1)">              
-              <div class="hover-text">
-                <h4>HOA1</h4>
-                <p id="description-1" style="display: none;">Creating Virtual Machines</p>
-                <button id="seeBtn-1" style="display: none;" onclick="redirectToGitHub('https://github.com/qsmvelmonte?tab=repositories')">See</button>
-              </div>
-              <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title">
-            </a>
+              <a href="#" onclick="toggleDescription(event, 1)">
+                <div class="hover-text">
+                  <h4>HOA 1</h4>
+                  <p id="description-1" style="display: none;">Creating Virtual Machines</p>
+                  <button id="seeBtn-1" style="display: none;" onclick="redirectToGitHub('https://github.com/acvera/SysAd_S4.git')">See</button>
+                </div>
+                <img src="img/portfolio/HOA-1.jpg" class="img-responsive" alt="Project Title">
+              </a>
+            </div>
           </div>
-         </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 illustration">
+        <div class="col-sm-6 col-md-3 col-lg-3 midterm">
           <div class="portfolio-item">
             <div class="hover-bg">
-             <a href="https://github.com/qsmvelmonte?tab=repositories" onclick="toggleDescription(event, 2)">              
-              <div class="hover-text">                
-                <h4>HOA6</h4>
-                <button id="seeBtn-1" style="display: none;" onclick="redirectToGitHub('https://github.com/qsmvelmonte?tab=repositories')">See</button>
-              </div>
-              <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-            </a>          
+              <a href="#" onclick="toggleDescription(event, 6)">
+                <div class="hover-text">
+                  <h4>HOA 6</h4>
+                  <p id="description-6" style="display: none;">Targeting Specific Nodes</p>
+                  <button id="seeBtn-6" style="display: none;" onclick="window.open('https://github.com/acvera/HOA6_S4.git')">See</button>
+                </div>
+                <img src="img/portfolio/HOA-6.jpg" class="img-responsive" alt="Project Title">
+              </a>
+            </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 graphic">
+        <div class="col-sm-6 col-md-3 col-lg-3 finals">
           <div class="portfolio-item">
             <div class="hover-bg">
-             <a href="https://github.com/qsmvelmonte?tab=repositories" onclick="toggleDescription(event, 3)">              
-              <div class="hover-text">
-                <h4>HOA2</h4>
-              </div>
-              <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <a href="#" onclick="toggleDescription(event, 11)">
+                <div class="hover-text">
+                  <h4>HOA 11</h4>
+                  <p id="description-11" style="display: none;">Containerization</p>
+                  <button id="seeBtn-11" style="display: none;" onclick="window.open('https://github.com/acvera/HOA11_S4.git')">See</button>
+                </div>
+                <img src="img/portfolio/HOA-11.jpg" class="img-responsive" alt="Project Title">
+              </a>
+            </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 graphic">
+        <div class="col-sm-6 col-md-3 col-lg-3 prelim">
           <div class="portfolio-item">
             <div class="hover-bg">
-             <a href="https://github.com/qsmvelmonte?tab=repositories" onclick="toggleDescription(event, 4)">              
-              <div class="hover-text">
-                <h4>HOA3</h4>
-              </div>
-              <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <a href="#" onclick="toggleDescription(event, 2)">
+                <div class="hover-text">
+                  <h4>HOA 2</h4>
+                  <p id="description-2" style="display: none;">SSH Key-Based Authentication and GIT Setup</p>
+                  <button id="seeBtn-2" style="display: none;" onclick="window.open('https://github.com/acvera/HOA2_S4.git')">See</button>
+                </div>
+                <img src="img/portfolio/HOA-2.jpg" class="img-responsive" alt="Project Title">
+              </a>
+            </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 illustration">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 photography">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 photography">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 graphic">
+        <div class="col-sm-6 col-md-3 col-lg-3 midterm">
           <div class="portfolio-item">
             <div class="hover-bg">
-             <a href="https://github.com/qsmvelmonte?tab=repositories" onclick="toggleDescription(event, 8)">              
-                <div class="hover-text">                        
-                 <h4>HOA4</h4>
-                 <button id="seeBtn-6" style="display: none;" onclick="window.open('https://github.com/acvera/HOA6_S4.git')">See</button>
-                </div>              
-              </div>
-              <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <a href="#" onclick="toggleDescription(event, 7)">
+                <div class="hover-text">
+                  <h4>HOA 7</h4>
+                  <p id="description-7" style="display: none;">Managing Files and Creating Roles in Ansible</p>
+                  <button id="seeBtn-7" style="display: none;" onclick="window.open('https://github.com/acvera/HOA7_S4.git')">See</button>
+                </div>
+                <img src="img/portfolio/HOA-7.jpg" class="img-responsive" alt="Project Title">
+              </a>
+            </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 illustration">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="img/portfolio/09-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 photography">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/10-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="img/portfolio/10-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 photography">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/11-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="img/portfolio/11-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 graphic">
+        <div class="col-sm-6 col-md-3 col-lg-3 finals">
           <div class="portfolio-item">
             <div class="hover-bg">
-             <a href="https://github.com/qsmvelmonte?tab=repositories" onclick="toggleDescription(event, 9)">              
-                <h4>HOA5</h4>
-              </div>
-              <img src="img/portfolio/12-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <a href="#" onclick="toggleDescription(event, 12)">
+                <div class="hover-text">
+                  <h4>HOA 12</h4>
+                  <p id="description-12" style="display: none;">Build a Sample Web App in a Docker Container</p>
+                  <button id="seeBtn-12" style="display: none;" onclick="window.open('https://github.com/acvera/HOA11_S4.git')">See</button>
+                </div>
+                <img src="img/portfolio/HOA-12.jpg" class="img-responsive" alt="Project Title">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 prelim">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+              <a href="#" onclick="toggleDescription(event, 3)">
+                <div class="hover-text">
+                  <h4>HOA 3</h4>
+                  <p id="description-3" style="display: none;">Install SSH server on CentOS or RHEL 8</p>
+                  <button id="seeBtn-3" style="display: none;" onclick="window.open('https://github.com/acvera/HOA3_S4.git')">See</button>
+                </div>
+                <img src="img/portfolio/HOA-3.jpg" class="img-responsive" alt="Project Title">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 midterm">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+              <a href="#" onclick="toggleDescription(event, 8)">
+                <div class="hover-text">
+                  <h4>HOA 8</h4>
+                  <p id="description-8" style="display: none;">Install, Configure, Manage Enterprise Availability Monitoring(Ansible)</p>
+                  <button id="seeBtn-8" style="display: none;" onclick="window.open('https://github.com/acvera/HOA8_S4.git')">See</button>
+                </div>
+                <img src="img/portfolio/HOA-8.jpg" class="img-responsive" alt="Project Title">
+              </a>
+            </div>
+          </div>
+        </div>   
+        <div class="col-sm-6 col-md-3 col-lg-3 finals">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+              <a href="#" onclick="toggleDescription(event, 13)">
+                <div class="hover-text">
+                  <h4>HOA 13</h4>
+                  <p id="description-13" style="display: none;">OpenStack Prerequisite Installation</p>
+                  <button id="seeBtn-13" style="display: none;" onclick="window.open('https://github.com/acvera/HOA13_S4.git')">See</button>
+                </div>
+                <img src="img/portfolio/HOA-13.jpg" class="img-responsive" alt="Project Title">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 prelim">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+              <a href="#" onclick="toggleDescription(event, 4)">
+                <div class="hover-text">
+                  <h4>HOA 4</h4>
+                  <p id="description-4" style="display: none;">Ansible Basics</p>
+                  <button id="seeBtn-4" style="display: none;" onclick="window.open('https://github.com/acvera/CPE232_olivera.git')">See</button>
+                </div>
+                <img src="img/portfolio/HOA-4.jpg" class="img-responsive" alt="Project Title">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 midterm">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+              <a href="#" onclick="toggleDescription(event, 9)">
+                <div class="hover-text">
+                  <h4>HOA 9</h4>
+                  <p id="description-9" style="display: none;">Install, Configur, Manage Enterprise Performance Monitoring(Ansible)</p>
+                  <button id="seeBtn-9" style="display: none;" onclick="window.open('https://github.com/acvera/HOA9_S4.git')">See</button>
+                </div>
+                <img src="img/portfolio/HOA-9.jpg" class="img-responsive" alt="Project Title">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 finals">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+              <a href="#" onclick="toggleDescription(event, 14)">
+                <div class="hover-text">
+                  <h4>HOA 14</h4>
+                  <p id="description-14" style="display: none;">OpenStack Installation (Keystone, Glance, Nova)</p>
+                  <button id="seeBtn-14" style="display: none;" onclick="window.open('https://github.com/acvera/HOA14_S4.git')">See</button>
+                </div>
+                <img src="img/portfolio/HOA-14.jpg" class="img-responsive" alt="Project Title">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 prelim">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+              <a href="#" onclick="toggleDescription(event, 5)">
+                <div class="hover-text">
+                  <h4>HOA 5</h4>
+                  <p id="description-5" style="display: none;">Implement Ansible roles in playbooks</p>
+                  <button id="seeBtn-5" style="display: none;" onclick="window.open('https://github.com/acvera/HOA5_S4.git')">See</button>
+                </div>
+                <img src="img/portfolio/HOA-5.jpg" class="img-responsive" alt="Project Title">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 midterm">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+              <a href="#" onclick="toggleDescription(event, 10)">
+                <div class="hover-text">
+                  <h4>HOA 10</h4>
+                  <p id="description-10" style="display: none;">Install, Configure, Manage Enterprise Log Monitoring(Ansible)</p>
+                  <button id="seeBtn-10" style="display: none;" onclick="window.open('https://github.com/acvera/HOA10_S4.git')">See</button>
+                </div>
+                <img src="img/portfolio/HOA-10.jpg" class="img-responsive" alt="Project Title">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 finals">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+              <a href="#" onclick="toggleDescription(event, 15)">
+                <div class="hover-text">
+                  <h4>HOA 15</h4>
+                  <p id="description-15" style="display: none;">OpenStack Installation (Neutron, Horizon, Cinder)</p>
+                  <button id="seeBtn-15" style="display: none;" onclick="window.open('https://github.com/acvera/HOA15_S4.git')">See</button>
+                </div>
+                <img src="img/portfolio/HOA-15.jpg" class="img-responsive" alt="Project Title">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 prelim">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+              <a href="#" onclick="toggleDescription(event, 16)">
+                <div class="hover-text">
+                  <h4>Prelim Exam</h4>
+                  <p id="description-16" style="display: none;">Ansible playbook(Install python3, pip3,Java open-jdk)</p>
+                  <button id="seeBtn-16" style="display: none;" onclick="window.open('https://github.com/acvera/Olivera_PelimExam.git')">See</button>
+                </div>
+                <img src="img/portfolio/HOA-16.jpg" class="img-responsive" alt="Project Title">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 midterm">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+              <a href="#" onclick="toggleDescription(event, 17)">
+                <div class="hover-text">
+                  <h4>Midterm Exam</h4>
+                  <p id="description-17" style="display: none;">Install, Configure, and Manage Log Monitoring tools</p>
+                  <button id="seeBtn-17" style="display: none;" onclick="window.open('https://github.com/acvera/MIDEXAM_OLIVERA.git')">See</button>
+                </div>
+                <img src="img/portfolio/HOA-17.jpg" class="img-responsive" alt="Project Title">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 finals">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+              <a href="#" onclick="toggleDescription(event, 18)">
+                <div class="hover-text">
+                  <h4>Final Exam</h4>
+                  <p id="description-18" style="display: none;">Website Portfolio</p>
+                  <button id="seeBtn-18" style="display: none;" onclick="window.open('https://github.com/acvera/Olivera_Final_Project.git')">See</button>
+                </div>
+                <img src="img/portfolio/HOA-18.jpg" class="img-responsive" alt="Project Title">
+              </a>
+            </div>
           </div>
         </div>
       </div>
